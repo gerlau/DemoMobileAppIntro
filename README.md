@@ -77,4 +77,4 @@ For drawable, please refer to `res/drawable`
 ## DotsIndicator
 Refer to https://github.com/tommybuonomo/dotsindicator
 
-
+To continue with the application, click 

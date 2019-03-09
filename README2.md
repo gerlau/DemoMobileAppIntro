@@ -52,5 +52,5 @@ companyLogo
                 .start();
 ```
 
-To continue through the application, click https://github.com/gerlau/howToMakeYourScreenMove/blob/master/README3.md
+To continue with the application, click https://github.com/gerlau/howToMakeYourScreenMove/blob/master/README3.md
 

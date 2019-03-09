@@ -77,4 +77,4 @@ For drawable, please refer to `res/drawable`
 ## DotsIndicator
 Refer to https://github.com/tommybuonomo/dotsindicator
 
-To continue with the application, click 
+To continue with the application, click https://github.com/gerlau/howToMakeYourScreenMove/blob/master/README2.md

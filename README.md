@@ -1,8 +1,8 @@
-# howToMakeYourScreenMove
+# 1. What is this project about?
 
 <a href="https://imgflip.com/gif/2vl9pi"><img src="https://i.imgflip.com/2vl9pi.gif" title="made at imgflip.com"/></a>
 
-## How you do it? ( ViewPager | Fragments | DotsIndicator )
+## 2. How are we going to do it? 
 
 1) Create a Linear layout XML file | refer to `activity_fragment_navigate.xml`
 ```java

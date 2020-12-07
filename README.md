@@ -1,20 +1,21 @@
-# 1. What is this project about?
+# What is this project about?
 
 <a href="https://imgflip.com/gif/2vl9pi"><img src="https://i.imgflip.com/2vl9pi.gif" title="made at imgflip.com"/></a>
 
-## 2. How are we going to do it? 
+# How are we going to do it? 
 
-1) Create a Linear layout XML file | refer to `activity_fragment_navigate.xml`
+1. Create a Linear layout XML file | refer to `activity_fragment_navigate.xml`
 ```java
 Add 'android.support.v4.view.ViewPager'
 ```
 
-2) Create an adapter java class so that information can be passed through to the view pager 
+2. Create an adapter java class so that information can be passed through to the view pager 
 ```java
 'PagerAdapter.java'
 ```
 
-3) In your main activity, set the adapter to the viewpager | refer to `FragmentMainActivity.java`
+3. In your main activity, set the adapter to the viewpager | refer to `FragmentMainActivity.java`
+
 ```java
 pagerAdapter = new PagerAdapter(getSupportFragmentManager());
 
@@ -23,7 +24,7 @@ mViewPager = findViewById(R.id.pager);
 mViewPager.setAdapter(pagerAdapter);
 ```
 
-4) Create a Fragment class that extends 'Fragment' | refer to `FragmentA.java`
+4. Create a Fragment class that extends 'Fragment' | refer to `FragmentA.java`
 
 - Create a new instance 'public static FragmentA new instance' & declare your arguments 
 I declared three arguments, a drawableId, a title, a description
@@ -50,7 +51,7 @@ imageView.setImageResource(getArguments().getInt(DRAWABLE_ID));
 
 For drawable, please refer to `res/drawable`
 
-5)  Go back to `PagerAdapter.java` & return new instances (each will represent a new page on the viewpager)
+5. Go back to `PagerAdapter.java` & return new instances (each will represent a new page on the viewpager)
 ```java
 @Override
     public Fragment getItem(int position){
